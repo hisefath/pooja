@@ -1,0 +1,22 @@
+.header {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-top: 2em;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 30s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
